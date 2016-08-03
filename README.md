@@ -1,2 +1,0 @@
-# GlowUp
-GWC Final Project
