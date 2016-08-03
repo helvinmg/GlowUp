@@ -10,6 +10,9 @@ nav{
 .navbar{
 	background-color: lightcyan;
 }
+body{
+	background-color: (252, 211, 242);
+}
 .active{
 	background-color: silver;
 }
