@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" contnet="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" contnet="width=device-width, initial-scale=1">
 
-    <!-- Latest comlied and minified CSS -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- Latest comlied and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!-- jQuery library -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    <link rel = "stylesheet" href = "skin_care.css">
+		<link rel = "stylesheet" href = "glowUp.css">
 
-    <title>glowup.com</title>
+		<title>glowup.com</title>
 
-  </head>
+	</head>
 <body>
-<!-- <img src="white.png"> -->
+<!-- Navigation Bar -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">GlowUP.com</a>
     </div>
     <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
       <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Hair</a>
         <ul class="dropdown-menu">
@@ -32,7 +35,6 @@
           <li><a href="#">Celebrities</a></li> 
         </ul>
       </li>
-<!--       <li><a href="#">Page 2</a></li> -->
   <ul class="nav navbar-nav">
       <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Makeup</a>
@@ -46,32 +48,39 @@
       <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nails</a>
         <ul class="dropdown-menu">
-          <li><a href="#">Tutorials</a></li>
-          <li><a href="#">Tips</a></li>
-          <li><a href="#">Colors</a></li>
-          <li><a href="#">Designs</a></li> 
+          <li><a href="nailTutorial.html">Tutorials</a></li>
+          <li><a href="nailTip.html">Tips</a></li>
+          <li><a href="nailColor.html">Colors</a></li>
+          <li><a href="nailDesign.html">Designs</a></li> 
         </ul>
       </li>
   <ul class="nav navbar-nav">
       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="skin_care.html">Skin Care</a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Skin Care</a>
         <ul class="dropdown-menu">
           <li><a href="#">Daily Routine</a></li>
-          <li><a href="skincare_tips.html">Tips</a></li>
+          <li><a href="#">Tips</a></li>
           <li><a href="#">Problem Areas</a></li> 
         </ul>
       </li>
     </ul>
   </div>
 </nav>
+<!-- Home page Logo Pic -->
+<img src = "blank.png" alt = "Blank" height = "60" width = "1262">
+<center><img src = "logo.png" alt = "Home_Page_Pic" height = "250" width = "980"></center>
 <!-- Carousel -->
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      height: 20%;
+      margin: auto;
+  }
+  </style>
 </head>
-</body>
-
-
 <body>
 
-<!-- creating all necis -->
 <div class="container">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -81,29 +90,24 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-
     </ol>
 
     <!-- Wrapper for slides -->
-    <!-- These are all the images in the carousel, if you want to change a picture switch the jpg or png name to the image name in src="" -->
-
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-             <!-- Change the pivture right here-->
-        <center><img src="skincarepic1.png" alt="Skincare" width="460" height="345"></center>
+        <img src="Hair.png" alt="Chania" width="460" height="345">
       </div>
 
       <div class="item">
-        <center><img src="sckincarepic2.png" alt="Chania" width="460" height="345"></center>
+        <img src="Makeup.png" alt="Chania" width="460" height="345">
       </div>
     
       <div class="item">
-        <center><img src="sckincarepic2.png" alt="Flower" width="460" height="345"></center>
+        <img src="Nails.png" alt="Flower" width="460" height="345">
       </div>
 
       <div class="item">
-        <center><img src="sckincarepic2.png" alt="Flower" width="460" height="345"></center>
+        <img src="Skincare.png" alt="Flower" width="460" height="345">
       </div>
     </div>
 
@@ -118,21 +122,18 @@
     </a>
   </div>
 </div>
-
-
+<img src = "blank.png" alt = "Blank" height = "10" width = "1262">
+<center><p>
+Daily.Beauty.Blog: Click the pic to learn more.
+</p>
+<a href="http://www.dailybeautyblog.com/category/natural/">
+  <img src="Daily.png" alt="Blog1" style="width:800px;height:345px;border:0;">
+</a></center>
+<img src = "blank.png" alt = "Blank" height = "10" width = "1262">
+<center><p>
+Refinery29: Click the pic to learn more.
+</p>
+<a href="http://www.refinery29.com/beauty-blogs">
+  <img src="Refinery.png" alt="Blog2" style="width:800px;height:345px;border:0;">
+</a></center>
 </body>
-<body>
-<!-- This img scr="white.png" is creating whit space between the carousel and the article picture -->
-<img src="white.png" width="1200" height="400">
-
-  <a href="http://www.garnierusa.com/skin-care-routine-finder.aspx?gclid=CjwKEAjwrIa9BRD5_dvqqazMrFESJACdv27GooMuMbzcmSe5dvjL6oeEfHO219mHKErZ411sk9t15hoCCALw_wcB">
-    <img src="skincarelink.png" style="width:400px;height:550px;border:0;" >
-  </a>
-</body>
-</html>
-
-
-
-
-
-
