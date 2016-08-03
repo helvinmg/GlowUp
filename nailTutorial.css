@@ -1,5 +1,10 @@
 /*nailTutorial.css*/
 
+p{
+	font-size: 30px;
+	color: gray;
+}
+
 nav{
 	text-align: center;
 	font-size: 45px;
