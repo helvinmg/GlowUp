@@ -14,3 +14,9 @@ nav{
 .active{
 	background-color: silver;
 }
+
+.col-sm-3{
+	padding-right: 200px;
+	font-size: 12px;
+	text-align: center;
+}
