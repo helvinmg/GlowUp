@@ -1,0 +1,35 @@
+/*skin_care.css*/
+nav {
+	text-align: center;
+	font-size: 45px;
+	padding-left: 80;
+	padding-right: 60px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	float: center;
+    
+  
+}
+
+.active{ 
+	padding-left: 140px;
+	padding-top  
+}
+.navbar{
+	background-color: lightcyan; 
+}
+
+.carousel-control{
+	background-color: lightcyan;
+	width:100px;
+	
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+
+
