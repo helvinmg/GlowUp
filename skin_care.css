@@ -1,3 +1,4 @@
+/*changes the styke of the navigation bar */
 nav {
 	text-align: center;
 	font-size: 45px;
@@ -7,32 +8,42 @@ nav {
 	padding-top: 10px;
 	float: center;
 }
-
+/*navigation bar*/
+/*Carousel images*/
  .carousel-inner > .item > img,
  .carousel-inner > .item > a > img {
       width: 70%;
       margin: center;
   }
+  /*Carousel images*/
+
+  /* the highlight color of when a tab is clicked*/
 .active{ 
 	padding-left: 40px; 
 	color: silver;
 }
+/*end tab highlight */
+/*Nav bar style*/
 .navbar{
 	background-color: lightcyan; 
 }
+/*Nav bar end settings */
 
+/*The arrows*/
 .carousel-control{
 	background-color: lightcyan;
 	width:100px;
 	
 }
 
+/*?all images*/
 img {
     display: block;
     margin: auto;
     width: 75%;
     height: 50%;
 }
+
 body {
     background-image: url("background_glowup.jpg");
     background-attachment: fixed;
@@ -40,8 +51,31 @@ body {
 }
 p{
 	font-size:20px;
+	color: darkblue;
+}
+h2{
+	color: darkblue;
+}
+.nav3 {
+    background-color: #E6E6FA;
+    height: auto;
+    float: left;
 }
 
+.icons{
+    display:inline-block;
 
+   }
+.imagesg{
+	height: auto;
+	float: right;
+}
+.garnierimages{
+	display:inline-block; 
+}
+
+.div{
+	background-color: 
+}
 
 
