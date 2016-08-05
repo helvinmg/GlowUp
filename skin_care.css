@@ -1,81 +1,48 @@
 /*changes the styke of the navigation bar */
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: lightcyan;
+    color: black;
+    padding: 15px;
+    margin-top: 50px;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+
 nav {
 	text-align: center;
-	font-size: 45px;
+	font-size: 35px;
 	padding-left: 80;
 	padding-right: 60px;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	float: center;
+	border: 2px solid #73AD21;
 }
-/*navigation bar*/
-/*Carousel images*/
+
  .carousel-inner > .item > img,
  .carousel-inner > .item > a > img {
       width: 70%;
       margin: center;
   }
-  /*Carousel images*/
 
-  /* the highlight color of when a tab is clicked*/
 .active{ 
 	padding-left: 40px; 
 	color: silver;
 }
-/*end tab highlight */
-/*Nav bar style*/
-.navbar{
-	background-color: lightcyan; 
-}
-/*Nav bar end settings */
 
-/*The arrows*/
+.navbar{
+	background-color: darkblue; 
+}
+
 .carousel-control{
 	background-color: lightcyan;
 	width:100px;
 	
 }
 
-/*?all images*/
-img {
-    display: block;
-    margin: auto;
-    width: 75%;
-    height: 50%;
-}
-
-body {
-    background-image: url("background_glowup.jpg");
-    background-attachment: fixed;
-    background-color: #E6E6FA;
-}
-p{
-	font-size:20px;
-	color: darkblue;
-}
-h2{
-	color: darkblue;
-}
-.nav3 {
-    background-color: #E6E6FA;
-    height: auto;
-    float: left;
-}
-
-.icons{
-    display:inline-block;
-
-   }
-.imagesg{
-	height: auto;
-	float: right;
-}
-.garnierimages{
-	display:inline-block; 
-}
-
-.div{
-	background-color: 
-}
 
 
