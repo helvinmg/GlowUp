@@ -1,74 +1,76 @@
-<!-- Home Page -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
       <meta charset="utf-8">
       <meta name="viewport" contnet="width=device-width, initial-scale=1">
       <!-- Latest comlied and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
       <!-- jQuery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
       <!-- Latest compiled JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
       <!-- Linking external style sheet -->
       <link rel = "stylesheet" href = "glowup_homepage.css">
-      <link rel = "stylesheet" href = "glowUp.css">
 <!-- Tital of current page -->
       <title>glowup.com</title>
     </head>
 
 
- <body>
-<!-- Navigation Bar -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">GlowUP.com</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="index.html">Home</a></li>
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Hair</a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Tutorials</a></li>
-          <li><a href="hairtips.html">Tips</a></li>
-          <li><a href="haircelebritites.html">Celebrities</a></li> 
-        </ul>
-      </li>
-  <ul class="nav navbar-nav">
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Makeup</a>
-        <ul class="dropdown-menu">
-          <li><a href="MakeupTutorials.html">Tutorials</a></li>
-          <li><a href="Makeuptips.html">Tips</a></li>
-          <li><a href="Makeupcelebrity.html">Celebrity Looks</a></li> 
-        </ul>
-      </li>
+  <body>
+  <!-- Navagation bar -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      </div>
+       <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="glowup_homepage.html">home</a>
+          <ul class="dropdown-menu"> 
+          </ul>
+        </li>
+      <!-- creating drop down menu for hair. Links go in where the # is-->
       <ul class="nav navbar-nav">
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nails</a>
-        <ul class="dropdown-menu">
-          <li><a href="nailTutorial.html">Tutorials</a></li>
-          <li><a href="nailTip.html">Tips</a></li>
-          <li><a href="nailColor.html">Colors</a></li>
-          <li><a href="nailDesign.html">Designs</a></li> 
-        </ul>
-      </li>
-  <ul class="nav navbar-nav">
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Skin Care</a>
-        <ul class="dropdown-menu">
-          <li><a href="skincare_daily.html">Daily Routine</a></li>
-          <li><a href="skincare_tips.html">Tips</a></li>
-          <li><a href="skincare_problem.html">Problem Areas</a></li> 
-        </ul>
-      </li>
-    </ul>
-  </div>
-</nav>
-<!-- Home page Logo Pic -->
-<img src = "blank.png" alt = "Blank" height = "60" width = "1262">
-<center><img src = "logo.png" alt = "Home_Page_Pic" height = "250" width = "980"></center>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Hair</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Celebrities</a></li> 
+          </ul>
+        </li>
+  <!--       <li><a href="#">Page 2</a></li> -->
+    <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Makeup</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Celebrity Looks</a></li> 
+          </ul>
+        </li>
+        <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nails</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Colors</a></li>
+            <li><a href="#">Designs</a></li> 
+          </ul>
+        </li>
+    <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="skin_care.html">Skin Care</a>
+          <ul class="dropdown-menu">
+            <li><a href="skincare_daily.html">Daily Routine</a></li>
+            <li><a href="skincare_tips.html">Tips</a></li>
+            <li><a href="skincare_problem.html">Problem Areas</a></li>
+            <li><a href="skincare_quiz.html">Learn About Your Skin</a></li> 
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <br>
   <br>
   <br>
@@ -77,22 +79,9 @@
   <br>
 
   <!-- Creating the hover element tab -->
-<!--     <div class="naturalbeauty">
 
-  <p class="text3">NATURAL BEAUTY</p>   
-  <p style="margin-left:60px;">With in and With out  </p> 
-
-
-  <img  class="image" alt="Beauty" src="natural_beauty.jpg" style=" width:400px;height:320;padding-top:5px; margin-left:20px; float:left;" />
-                
-
-        <div class="hoverblock">
-          <a alt="JOIN THE MOVEMENT" href="jointhemovement.html" >JOIN THE MOVEMENT</a>
-    </div> -->
-        <div class="naturalbeauty">
-
-    <p class="text3">NATURAL BEAUTY</p>   
-    <p style="margin-left:60px;">With in and With out  </p>
+    <h1 class="text3">#NATURALBEAUTY</h1>
+    <h6 class="text1" ">With in and With out</h3>
 
 
   <ul class="img-list">
@@ -100,6 +89,24 @@
       <a href="jointhemovement.html">
         <img class="image" src="natural_beauty.jpg" width="350" height="350"  />
         <span class="text-content"><span>Join The Movement</span></span>
+      </a>
+    </li>
+  </ul>
+
+    <ul class="img-list">
+    <li>
+      <a href="skincare_quiz.html">
+        <img class="image" src="quizskincare.png" width="350" height="350"  />
+        <span class="text-content"><span>Find Your Skin Care Routine</span></span>
+      </a>
+    </li>
+  </ul>
+
+  <ul class="img-list">
+    <li>
+      <a href="skincare_quiz.html">
+        <img class="image" src="quizskincare.png" width="350" height="350"  />
+        <span class="text-content"><span>Find Your Skin Care Routine</span></span>
       </a>
     </li>
   </ul>
