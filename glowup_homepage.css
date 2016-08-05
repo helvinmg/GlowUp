@@ -5,6 +5,7 @@ img{
 
 }
 .home{
+	font-style: 
 	font-size:24px;
 	margin-left:25px;
 	margin-top:15px;  
@@ -22,16 +23,14 @@ nav {
 .text1 {
 	font-size:17px;
 	/*float:left;*/
-	margin-left:20px;
+	margin-left:95px;
 }
 .text2 {
 	font-size:24px;
 }
 .text3 {
 	font-size:30px;
-	/*float:left;*/
-	margin-top:20px;
-	margin-left:20px;  
+	margin-left:50px;  
 }
 
 ul.img-list {
@@ -82,4 +81,10 @@ span.text-content span {
 	width:350px;
 	height:350px;  
 }
+	
 
+
+h1, h1.blog { 
+	display: inline; 
+	float:left; 
+}
