@@ -1,48 +1,26 @@
-/*changes the styke of the navigation bar */
-html {
-    font-family: "Lucida Sans", sans-serif;
-}
-.header {
-    background-color: lightcyan;
-    color: black;
-    padding: 15px;
-    margin-top: 50px;
-}
-.menu li:hover {
-    background-color: #0099cc;
-}
-
+/*skin_care.css*/
 nav {
 	text-align: center;
-	font-size: 35px;
 	padding-left: 80;
 	padding-right: 60px;
-	padding-bottom: 10px;
-	padding-top: 10px;
 	float: center;
-	border: 2px solid #73AD21;
 }
-
- .carousel-inner > .item > img,
- .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: center;
-  }
 
 .active{ 
-	padding-left: 40px; 
-	color: silver;
+	padding-left: 140px;
+	padding-top;  
 }
-
 .navbar{
-	background-color: darkblue; 
+	background-color: black;
 }
 
 .carousel-control{
-	background-color: lightcyan;
 	width:100px;
 	
 }
 
-
-
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
