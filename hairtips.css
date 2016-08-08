@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: right;
+}
+
+li{
+	margin-right:200px;
+	margin-left: 100px;
+}
