@@ -12,11 +12,8 @@ img{
 }
 nav {
 	text-align: center;
-	font-size: 35px;
 	padding-left: 80;
 	padding-right: 60px;
-	padding-bottom: 10px;
-	padding-top: 10px;
 	float: center;
 	border: 2px solid #73AD21;
 }
