@@ -21,3 +21,8 @@ nav {
 	float: center;
 	border: 2px solid #73AD21;
 }
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
