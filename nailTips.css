@@ -10,9 +10,7 @@ nav {
 .navbar{
 	background-color: lightcyan;
 }
-body{
-	background-color: (252, 211, 242);
-}
+
 .active{
 	background-color: silver;
 }
@@ -28,7 +26,7 @@ img{
 
 ul{
 	font-size: 20px;
-	color: darkgray;
+	color: black;
 }
 body {
     background-image: url("background.jpg");
