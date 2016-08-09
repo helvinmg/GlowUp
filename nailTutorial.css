@@ -24,3 +24,8 @@ nav {
 	font-size: 12px;
 	text-align: center;
 }
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
