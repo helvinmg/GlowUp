@@ -5,13 +5,12 @@ p{
 	color: gray;
 }
 
-nav{
+nav {
 	text-align: center;
-	font-size: 45px;
-	padding-left: 140px;
+	padding-left: 80;
 	padding-right: 60px;
-	padding-bottom: 10px;
-	padding-top: 20px;
+	float: center;
+	border: 2px solid #73AD21;
 }
 .navbar{
 	background-color: lightcyan;
